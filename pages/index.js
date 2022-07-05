@@ -1,8 +1,14 @@
 import React from 'react'
+import { getFeaturedEvents } from '../dummy_data'
 
 const FeaturedEvents = () => {
+  const featured_events = getFeaturedEvents()
   return (
-    <div><h1>FeaturedEvents</h1></div>
+    <div>
+      <ul>
+        
+      </ul>
+    </div>
   )
 }
 
