@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Button from "../ui/Button";
 import styles from './event-item.module.css';
 
 const EventItem = ({ event }) => {
@@ -24,7 +24,7 @@ const EventItem = ({ event }) => {
           </div>
         </div>
         <div className={styles.actions}>
-          <Link href={exploreLink}>Explore Event</Link>
+          <Button link={exploreLink}>Explore Event</Button>
         </div>
       </div>
     </li>
