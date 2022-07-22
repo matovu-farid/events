@@ -1,9 +1,11 @@
-function Layout({children}){
-  return (<>
-      <header></header>
-      <main>
-        {children}
-      </main>
-  </>)
+import MainHeader from "./main-header";
+
+function Layout({ children }) {
+  return (
+    <>
+      <MainHeader />
+      <main>{children}</main>
+    </>
+  );
 }
-export default Layout
+export default Layout;
