@@ -9,6 +9,7 @@ const Button = ({ children, link }) => {
       </Link>
     
   );
+
 };
 
 export default Button;
